@@ -1,7 +1,7 @@
 from os import path
 import sys
 
-from models.attr_classifier import attribute_classifier
+from attr_classifier import attribute_classifier
 from load_data import *
 import parse_args
 import itertools
