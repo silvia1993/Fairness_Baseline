@@ -2,7 +2,7 @@ import torch
 import torch.optim as optim
 import numpy as np
 from sklearn.metrics import average_precision_score, recall_score, confusion_matrix
-from models.basenet import ResNet50
+from basenet import ResNet50
 
 
 class attribute_classifier():
